@@ -5,7 +5,7 @@ export default defineConfig({
   server: {
     watch: {
       usePolling: true,
-      ignored: ['/mnt/c/**', 'C:\\\\**']
+      ignored: ['/mnt/c/**', 'C:\\**']
     }
   }
 })
